@@ -46,6 +46,7 @@ nav {
     font-size: 20px;
     line-height: 24px;
     justify-content: space-between;
+    white-space: nowrap;
 }
 
 .dark-gray,
@@ -558,6 +559,7 @@ footer {
     background: #F0F0F4;
     margin-top: 12px;
     padding: 42px 0px 27px 0px;
+    max-width: 100%;
 }
 
 .footer-flex {

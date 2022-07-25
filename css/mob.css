@@ -13,7 +13,7 @@
     src: url("../fonts/SF_Pro_Display/regular.OTF") format("opentype");
 }
 
-@media (max-width:480px) {
+@media (max-width:320px) {
     .container {
         max-width: 320px;
         width: 100%;
@@ -21,6 +21,7 @@
 
     nav {
         font-size: 16px;
+        max-width: 100%;
     }
 
     header {
@@ -34,7 +35,6 @@
     .header__main__ref,
     .header__nav__logo,
     .header__nav__geo,
-    .header__shop,
     .main__nav__search__button,
     .wide-screen,
     .for-wide,
@@ -579,5 +579,19 @@
         max-width: 288px;
         width: 100%;
         padding: 17px 85px;
+        margin-bottom: 80px;
+    }
+
+    .buying__navigation {
+        flex-direction: column;
+        margin-bottom: 40px;
+        align-items: flex-start;
+        font-size: 20px;
+        line-height: 24px;
+        background-color: transparent;
+    }
+
+    .buying__navigation a:hover {
+        font-weight: 700;
     }
 }
