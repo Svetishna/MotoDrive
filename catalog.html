@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jet Skis</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <link rel="stylesheet" href="css/mob.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <script src="js/index.js" defer></script>
+    <script src="js/swiper-bundle.js" defer></script>
+    <script src="js/sliderMain.js" defer></script>
+</head>
+
+<body>
+    <header class="dark-gray header-catalog">
+        <div class="container">
+            <nav class="header__main dark-gray">
+                <div class="header__main__ref">
+
+                    <a href="#">Магазины</a>
+                    <a href="#">Акции</a>
+                    <a href="#">Доставка и оплата</a>
+                </div>
+                <img class="header__nav__logo" src="img/logo.svg" alt="">
+                <div class="header__nav__geo">
+                    <img src="img/geo.svg" alt="">
+                    <p>Москва, ул. Науки 25</p>
+                </div>
+                <div class="header__nav__icons">
+                    <div class="burger-mob">
+                        <img src="img/burger.svg" alt="">
+                    </div>
+
+                    <!-- Открытый гамбургер -->
+                    <div class="hamburger for-mob hidden">
+                        <nav class="hamburger__nav">
+                            <a href=""><img src="img/man.svg" alt="">Войти</a>
+                            <a href=""><img src="img/man.svg" alt="">Регистрация</a>
+                            <a href=""><img src="img/heart-mob.svg" alt="">Избранное</a>
+                            <a href=""><img class="mini-cart" src="img/cart-mob.svg" alt="">Корзина</a>
+                            <a href=""><img src="img/shop.svg" alt="">Магазины</a>
+                            <a href=""><img src="img/promo.svg" alt="">Акции</a>
+                            <a href=""><img src="img/delivery.svg" alt="">Доставка и оплата</a>
+                            <a class="without-img" href="">Квадроциклы</a>
+                            <a class="without-img" href="">Катера</a>
+                            <a class="without-img" href="catalog.html">Гидроциклы</a>
+                            <a class="without-img" href="">Лодки</a>
+                            <a class="without-img" href="">Вездеходы</a>
+                            <a class="without-img" href="">Снегоходы</a>
+                            <a class="without-img" href="">Двигатели</a>
+                            <a class="without-img" href="">Запчасти</a>
+                        </nav>
+                        <p>Москва,<br>
+                            ул. Науки 25</p>
+                    </div>
+
+                    <p class="logo-mob">DRIVE MOTO</p>
+                    <img class="icon-margin" src="img/header1.svg" alt="">
+                    <img class="icon-margin" src="img/header2.svg" alt="">
+                    <img src="img/header3.svg" alt="">
+                    <div class="shop-count">
+                        <p>1</p>
+                    </div>
+                </div>
+            </nav>
+            <nav class="header__shop">
+                <a href="#">Квадроциклы</a>
+                <a href="#">Катера</a>
+                <a href="catalog.html">Гидроциклы</a>
+                <a href="#">Лодки</a>
+                <a href="#">Вездеходы</a>
+                <a href="#">Снегоходы</a>
+                <a href="#">Двигатели</a>
+                <a href="#">Запчасти</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <aside class="aside-catalog">
+                <a class="gray-text" href="index.html">Главная</a>
+                <img class="aside-arrow" src="img/arrow-back.svg" alt="">
+                <p class="gray-text">Гидроциклы</p>
+            </aside>
+            <section class="main__extra">
+                <h2>Гидроциклы</h2>
+                <div class="section__extra">
+                    <nav class="section__extra-nav">
+                        <a class="section__extra__text">Полноприводные</a>
+                        <a class="section__extra__text">от 5000</a>
+                        <a class="section__extra__text">BRP</a>
+                        <a class="section__extra__text">еще</a>
+                    </nav>
+                    <div class="section__extra__filter">
+
+                        <!-- Для wide-screen -->
+                        <select class="extra__filter__select dark-gray wide-screen">
+                            <option value="">По популярности</option>
+                            <option value="">По алфавиту</option>
+                            <option value="">По цене</option>
+                        </select>
+
+                        <!-- Для экрана 320px -->
+                        <img class="mob-screen" src="img/filter.svg" alt="">
+                        <p class="dark-gray mob-screen">По популярности</p>
+                        <img src="img/filter1.svg" alt="">
+                        <img src="img/filter2.svg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="main__general">
+                <aside>
+                    <div class="main__general__header">
+                        <p>Параметры</p>
+                        <p>По марке</p>
+                    </div>
+                    <div class="main__general__item available">
+                        <div>
+                            <p class="dark-gray available-header arrow-down for-arrow">Наличие</p>
+                        </div>
+                        <div class="for-hidden">
+                            <input type="checkbox" class="custom-checkbox" id="available" name="available" value="yes">
+                            <label class="dark-gray" for="available">В наличии</label>
+                            <input type="checkbox" class="custom-checkbox" id="order" name="available" value="yes">
+                            <label class="dark-gray" for="order">Под заказ</label>
+                        </div>
+                    </div>
+                    <div class="main__general__item new">
+                        <div>
+                            <p class="dark-gray available-header arrow-down for-arrow">Новинки</p>
+                        </div>
+                        <div class="for-hidden">
+                            <input type="checkbox" class="custom-checkbox" id="all" name="all" value="yes">
+                            <label class="dark-gray" for="all">Все</label>
+                            <input type="checkbox" class="custom-checkbox" id="new`s" name="available" value="yes">
+                            <label class="dark-gray" for="new`s">Новинки</label>
+                            <input type="checkbox" class="custom-checkbox" id="stock" name="available" value="yes">
+                            <label class="dark-gray" for="stock">Акции</label>
+                        </div>
+                    </div>
+                    <div class="main__general__item price">
+                        <div>
+                            <p class="dark-gray available-header arrow-down for-arrow">Цена</p>
+                        </div>
+                        <div class="for-hidden">
+                            <div class="pull">
+                                <img src="img/pull.svg" alt="">
+                                <img class="img-for-pull" src="img/forpull.svg" alt="">
+                            </div>
+                            <div class="price-interval">
+                                <p class="gray-text">от <span>100 000</span></p>
+                                <p class="gray-text">до <span>500 000</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dop">
+                        <p class="dark-gray available-header">Мощность, л.с.</p>
+                        <div class="dop-dop">
+                            <p class="dop-text arrow-top">90</p>
+                            <ul class="dop-select-list hidden">
+                                <li>90</li>
+                                <li>130</li>
+                                <li>154</li>
+                                <li>230</li>
+                                <li>300</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dop">
+                        <p class="dark-gray available-header">Мощность двигателя, л.с.</p>
+                        <div class="dop-dop">
+                            <p class="dop-text arrow-top">90</p>
+                            <ul class="dop-select-list hidden">
+                                <li>90</li>
+                                <li>130</li>
+                                <li>154</li>
+                                <li>230</li>
+                                <li>300</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dop">
+                        <p class="dark-gray available-header">Макс. скорость</p>
+                        <div class="dop-dop">
+                            <p class="dop-text arrow-top">90</p>
+                            <ul class="dop-select-list hidden">
+                                <li>90</li>
+                                <li>130</li>
+                                <li>154</li>
+                                <li>230</li>
+                                <li>300</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main__general__item">
+                        <div>
+                            <p class="dark-gray available-header arrow-down for-arrow">Бренд</p>
+                        </div>
+                        <div class="for-hidden">
+                            <div class="item-brand">
+                                <input type="checkbox" class="custom-checkbox" id="brp" name="all" value="yes">
+                                <label class="dark-gray margin" for="brp">BRP</label>
+                                <input type="checkbox" class="custom-checkbox" id="spark-2" name="available"
+                                    value="yes">
+                                <label class="dark-gray margin2" for="spark-2">Spark 2</label>
+                                <input type="checkbox" class="custom-checkbox" id="spark-3" name="available"
+                                    value="yes">
+                                <label class="dark-gray" for="spark-3">Spark 3</label>
+                            </div>
+                            <a href="#" class="show-more">Показать еще</a>
+                        </div>
+
+                    </div>
+                    <div class="main__general__item model">
+                        <div>
+                            <p class="dark-gray available-header arrow-down for-arrow">Модель</p>
+                        </div>
+                        <div class="for-hidden">
+                            <textarea class="model-textarea" placeholder="Введите модель"></textarea>
+                            <div class="item-brand item-model">
+                                <input type="checkbox" class="custom-checkbox" id="sea" name="all" value="yes">
+                                <label class="dark-gray" for="sea">Sea-doo Spark 2</label>
+                                <input type="checkbox" class="custom-checkbox" id="sea2" name="available" value="yes">
+                                <label class="dark-gray" for="sea2">SeaDoo Spark 90 </label>
+                                <input type="checkbox" class="custom-checkbox" id="sea3" name="available" value="yes">
+                                <label class="dark-gray" for="sea3">SeaDoo GTI 155</label>
+                                <input type="checkbox" class="custom-checkbox" id="sea4" name="available" value="yes">
+                                <label class="dark-gray" for="sea4">SeaDoo GTR 230</label>
+                            </div>
+                            <a href="#" class="show-more">Показать еще</a>
+                        </div>
+
+                    </div>
+                    <div class="main__general__item model">
+                        <div>
+                            <p class="dark-gray available-header arrow-down for-arrow">Акции</p>
+                        </div>
+                        <div class="item-stocks for-hidden">
+                            <button>SALE</button>
+                            <button>NEW</button>
+                            <button>HIT</button>
+                            <button class="diler">ДИЛЕР</button>
+                        </div>
+                    </div>
+                    <div class="main__general__item model">
+                        <div>
+                            <p class="dark-gray available-header arrow-down for-arrow">Страны</p>
+                        </div>
+                        <div class="for-hidden">
+                            <div class="item-brand item-country">
+                                <input type="checkbox" class="custom-checkbox" id="russia" name="all" value="yes">
+                                <label class="dark-gray" for="russia">Россия</label>
+                                <input type="checkbox" class="custom-checkbox" id="germany" name="available"
+                                    value="yes">
+                                <label class="dark-gray" for="germany">Германия</label>
+                                <input type="checkbox" class="custom-checkbox" id="china" name="available" value="yes">
+                                <label class="dark-gray" for="china">Китай</label>
+                                <input type="checkbox" class="custom-checkbox" id="usa" name="available" value="yes">
+                                <label class="dark-gray" for="usa">США</label>
+                            </div>
+                            <a href="#" class="show-more">Показать еще</a>
+                        </div>
+                    </div>
+                    <div class="main__general__footer">
+                        <button class="main__general__button">ВЫБРАТЬ</button>
+                        <div>
+                            <p class="dark-gray arrow-top">Дополнительные параметры</p>
+                            <p class="gray-text">Сбросить фильтр</p>
+                        </div>
+
+                    </div>
+                </aside>
+                <section class="z-index">
+                    <div class="main__general__items">
+                        <div class="good good-catalog">
+                            <div class="good__likes">
+                                <img class="heart" src="img/heart.svg" alt="">
+                                <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                            </div>
+                            <img class="good-img" src="img/gidro1.png" alt="">
+                            <div class="good__about">
+                                <p class="text-name dark-gray change-color">Гидроцикл BRP SeaDoo GTI 130hp SE
+                                    Black\Mango
+                                </p>
+                                <p class="good__price dark-gray change-color">1 049 500 ₽</p>
+                            </div>
+                            <img class="good-cart cart-catalog" src="img/cart.svg" alt="">
+                            <div class="good__to-see dark-gray hidden">
+                                <a href="product-card.html">посмотреть товар</a>
+                            </div>
+                        </div>
+                        <div class="good good-catalog">
+                            <p class="blue-rectangle good-sale">SALE</p>
+                            <div class="good__likes">
+                                <img class="heart" src="img/heart.svg" alt="">
+                                <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                            </div>
+                            <img class="good-img" src="img/gidro2.png" alt="">
+                            <div class="good__about">
+                                <p class="text-name dark-gray change-color">Гидроцикл BRP SeaDoo GTI 155hp SE Long Blue
+                                    Metallic</p>
+                                <p class="good__price dark-gray change-color">1 100 475 ₽</p>
+                            </div>
+                            <img class="good-cart cart-catalog" src="img/cart.svg" alt="">
+                            <div class="good__to-see dark-gray hidden">
+                                <a href="product-card.html">посмотреть товар</a>
+                            </div>
+                        </div>
+                        <div class="good good-catalog">
+                            <div class="good__likes">
+                                <img class="heart" src="img/heart.svg" alt="">
+                                <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                            </div>
+                            <img class="good-img" src="img/gidro3.png" alt="">
+                            <div class="good__about">
+                                <p class="text-name dark-gray change-color">Гидроцикл BRP SeaDoo GTR 230hp X California
+                                    green </p>
+                                <p class="good__price dark-gray change-color">1 323 700 ₽</p>
+                            </div>
+                            <img class="good-cart cart-catalog" src="img/cart.svg" alt="">
+                            <div class="good__to-see dark-gray hidden">
+                                <a href="product-card.html">посмотреть товар</a>
+                            </div>
+                        </div>
+                        <div class="good good-catalog">
+                            <p class="blue-rectangle good-sale">SALE</p>
+                            <div class="good__likes">
+                                <img class="heart" src="img/heart.svg" alt="">
+                                <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                            </div>
+                            <img class="good-img" src="img/gidro4.png" alt="">
+                            <div class="good__about">
+                                <p class="text-name dark-gray change-color">Гидроцикл BRP SeaDoo GTR 230hp STD Black /
+                                    Gulfstream</p>
+                                <p class="text-name bold none">нет в наличии</p>
+                                <a href="#" class="small-refer">Сообщить о поступлении</a>
+                            </div>
+                            <div class="good__to-see dark-gray hidden">
+                                <a href="product-card.html">посмотреть товар</a>
+                            </div>
+                        </div>
+                        <div class="good good-catalog">
+                            <div class="good__likes">
+                                <img class="heart" src="img/heart.svg" alt="">
+                                <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                            </div>
+                            <img class="good-img" src="img/gidrot5.png" alt="">
+                            <div class="good__about">
+                                <p class="text-name dark-gray change-color">Гидроцикл BRP SeaDoo GTX 300hp LTD Liquid
+                                    Metal
+                                </p>
+                                <p class="good__price dark-gray change-color">1 543 000 ₽</p>
+                            </div>
+                            <img class="good-cart cart-catalog" src="img/cart.svg" alt="">
+                            <div class="good__to-see dark-gray hidden">
+                                <a href="product-card.html">посмотреть товар</a>
+                            </div>
+                        </div>
+                        <div class="good good-catalog">
+                            <div class="good__likes">
+                                <img class="heart" src="img/heart.svg" alt="">
+                                <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                            </div>
+                            <img class="good-img" src="img/gidro6.png" alt="">
+                            <div class="good__about">
+                                <p class="text-name dark-gray change-color">Гидроцикл BRP SeaDoo Spark 60hp 2 up</p>
+                                <p class="good__price dark-gray change-color">732 345 ₽</p>
+                            </div>
+                            <img class="good-cart cart-catalog" src="img/cart.svg" alt="">
+                            <div class="good__to-see dark-gray hidden">
+                                <a href="product-card.html">посмотреть товар</a>
+                            </div>
+                        </div>
+                        <div class="good good-catalog">
+                            <div class="good__likes">
+                                <img class="heart" src="img/heart.svg" alt="">
+                                <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                            </div>
+                            <img class="good-img" src="img/gidro7.png" alt="">
+                            <div class="good__about">
+                                <p class="text-name dark-gray change-color">Гидроцикл BRP SeaDoo Spark GTS 90hp Rental
+                                </p>
+                                <p class="good__price dark-gray change-color">857 666 ₽</p>
+                            </div>
+                            <img class="good-cart cart-catalog" src="img/cart.svg" alt="">
+                            <div class="good__to-see dark-gray hidden">
+                                <a href="product-card.html">посмотреть товар</a>
+                            </div>
+                        </div>
+                        <div class="good good-catalog">
+                            <p class="blue-rectangle good-sale">SALE</p>
+                            <div class="good__likes">
+                                <img class="heart" src="img/heart.svg" alt="">
+                                <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                            </div>
+                            <img class="good-img" src="img/gidro8.png" alt="">
+                            <div class="good__about">
+                                <p class="text-name dark-gray change-color">Гидроцикл BRP SeaDoo WAKE 230hp PRO Teal
+                                    blue
+                                </p>
+                                <p class="good__price dark-gray change-color">1 229 711 ₽</p>
+                            </div>
+                            <img class="good-cart cart-catalog" src="img/cart.svg" alt="">
+                            <div class="good__to-see dark-gray hidden">
+                                <a href="product-card.html">посмотреть товар</a>
+                            </div>
+                        </div>
+                        <div class="good good-catalog">
+                            <div class="good__likes">
+                                <img class="heart" src="img/heart.svg" alt="">
+                                <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                            </div>
+                            <img class="good-img" src="img/gidro9.png" alt="">
+                            <div class="good__about">
+                                <p class="text-name dark-gray change-color">Гидроцикл Spark 2-UP 900 Ho Ace Chili Pepper
+                                </p>
+                                <p class="good__price dark-gray change-color">587 440 ₽</p>
+                            </div>
+                            <img class="good-cart cart-catalog" src="img/cart.svg" alt="">
+                            <div class="good__to-see dark-gray hidden">
+                                <a href="product-card.html">посмотреть товар</a>
+                            </div>
+                        </div>
+                        <div class="good good-catalog">
+                            <div class="good__likes">
+                                <img class="heart" src="img/heart.svg" alt="">
+                                <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                            </div>
+                            <img class="good-img" src="img/gidro10.png" alt="">
+                            <div class="good__about">
+                                <p class="text-name dark-gray change-color">Гидроцикл Spark 2-UP 900 Ho Ace Pineapple
+                                </p>
+                                <p class="good__price dark-gray change-color">587 440 ₽</p>
+                            </div>
+                            <img class="good-cart cart-catalog" src="img/cart.svg" alt="">
+                            <div class="good__to-see dark-gray hidden">
+                                <a href="product-card.html">посмотреть товар</a>
+                            </div>
+                        </div>
+                        <div class="good good-catalog">
+                            <div class="good__likes">
+                                <img class="heart" src="img/heart.svg" alt="">
+                                <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                            </div>
+                            <img class="good-img" src="img/gidro11.png" alt="">
+                            <div class="good__about">
+                                <p class="text-name dark-gray change-color">Гидроцикл BRP Sea-doo Spark 2-UP 900 Ace
+                                    Vanilla
+                                </p>
+                                <p class="text-name bold none">нет в наличии</p>
+                                <a href="#" class="small-refer">Сообщить о поступлении</a>
+                            </div>
+                            <div class="good__to-see dark-gray hidden">
+                                <a href="product-card.html">посмотреть товар</a>
+                            </div>
+                        </div>
+                        <div class="good good-catalog">
+                            <div class="good__likes">
+                                <img class="heart" src="img/heart.svg" alt="">
+                                <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                            </div>
+                            <img class="good-img" src="img/gidro12.png" alt="">
+                            <div class="good__about">
+                                <p class="text-name dark-gray change-color">Гидроцикл Spark 3-UP 900 HO Ace IBR
+                                    Blueberry
+                                </p>
+                                <p class="text-name bold none">нет в наличии</p>
+                                <a href="#" class="small-refer">Сообщить о поступлении</a>
+                            </div>
+                            <div class="good__to-see dark-gray hidden">
+                                <a href="product-card.html">посмотреть товар</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__goods__more for-section">
+                        <p class="dark-gray">Показать еще</p>
+                    </div>
+                    <div class="main__general__items-pagination">
+                        <p class="hover">1</p>
+                        <p class="hover">2</p>
+                        <p class="hover">3</p>
+                        <p class="hover">4</p>
+                        <p class="hover">5</p>
+                        <p>...</p>
+                        <p class="hover">11</p>
+                    </div>
+
+                    <!-- Для экрана 320px -->
+                    <section class="main__goods main__goods-catalog">
+                        <h2 class="dark-gray with-this">С этим товаром покупают</h2>
+                        <nav class="main__goods__nav">
+                            <a href="#">запчасти</a>
+                            <a href="#">моторы</a>
+                            <a href="#">шины</a>
+                            <a href="#">электроника</a>
+                            <a href="#">инструменты</a>
+                            <a href="#">аксессуары</a>
+                        </nav>
+                        <div class="main__goods__items swiper slider-js mob-screen">
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-wrapper-goods swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="good">
+                                        <p class="blue-rectangle good-sale">SALE</p>
+                                        <div class="good__likes">
+                                            <img class="heart" src="img/heart.svg" alt="">
+                                            <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                                        </div>
+                                        <img class="good-img" src="img/audio-system.png" alt="">
+                                        <div class="good__about">
+                                            <p class="text-name dark-gray change-color">BRP Audio-портативная система
+                                            </p>
+                                            <p class="text-name bold none">нет в наличии</p>
+                                            <a href="#" class="small-refer">Сообщить о поступлении</a>
+                                        </div>
+                                        <div class="good__to-see dark-gray hidden">
+                                            <a href="product-card.html">посмотреть товар</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="good">
+                                        <div class="good__likes">
+                                            <img class="heart" src="img/heart.svg" alt="">
+                                            <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                                        </div>
+                                        <img class="good-img" src="img/echomap.png" alt="">
+                                        <div class="good__about">
+                                            <p class="text-name dark-gray change-color">Garmin Echomap Plus 62cv</p>
+                                            <p class="good__price dark-gray change-color">45 800 ₽</p>
+                                        </div>
+                                        <img class="good-cart cart-catalog-2" src="img/cart.svg" alt="">
+                                        <div class="good__to-see dark-gray hidden">
+                                            <a href="product-card.html">посмотреть товар</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="good">
+                                        <p class="blue-rectangle good-sale">SALE</p>
+                                        <div class="good__likes">
+                                            <img class="heart" src="img/heart.svg" alt="">
+                                            <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                                        </div>
+                                        <img class="good-img" src="img/key.png" alt="">
+                                        <div class="good__about">
+                                            <p class="text-name dark-gray change-color">
+                                                RF D.E.S.S.TM Key</p>
+                                            <p class="text-name bold none">нет в наличии</p>
+                                            <a href="#" class="small-refer">Сообщить о поступлении</a>
+                                        </div>
+                                        <div class="good__to-see dark-gray hidden">
+                                            <a href="product-card.html">посмотреть товар</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="good">
+                                        <div class="good__likes">
+                                            <img class="heart" src="img/heart.svg" alt="">
+                                            <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                                        </div>
+                                        <img class="good-img" src="img/suit.png" alt="">
+                                        <div class="good__about">
+                                            <p class="text-name dark-gray change-color">Мужской костюм
+                                                3мм</p>
+                                            <p class="good__price dark-gray change-color">7 000 ₽</p>
+                                        </div>
+                                        <img class="good-cart cart-catalog-2" src="img/cart.svg" alt="">
+                                        <div class="good__to-see dark-gray hidden">
+                                            <a href="product-card.html">посмотреть товар</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="main__goods__more for-mobile-catalog">
+                        <p class="dark-gray">Показать еще</p>
+                    </div>
+
+                </section>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-flex">
+                <div class="gray-background">
+                    <p class="dark-gray footer__text">
+                        Подпишитесь на нашу рассылку<br>
+                        и узнавайте о акция быстрее
+                    </p>
+                    <div class="footer__search">
+                        <textarea placeholder="Введите ваш e-mail:"></textarea>
+                        <button class="blue-rectangle">Отправить</button>
+                    </div>
+                </div>
+
+                <!-- Для широких экранов -->
+                <div class="footer-flex wide-screen">
+                    <nav>
+                        <a class="footer__text" href="#">Информация</a>
+                        <a href="#">О компании</a>
+                        <a href="#">Контакты</a>
+                        <a href="#">Акции</a>
+                        <a href="#">Магазины</a>
+                        <a class="footer__end" href="#">Договор оферты</a>
+                    </nav>
+                    <nav>
+                        <a class="footer__text" href="#">Интернет-магазин</a>
+                        <a href="#">Доставка и самовывоз</a>
+                        <a href="#">Оплата</a>
+                        <a href="#">Возврат-обмен</a>
+                        <a href="#">Новости</a>
+                        <a class="footer__end move-left" href="#">Политика обработки персональных данных</a>
+                    </nav>
+                </div>
+                <div class="footer__icons wide-screen">
+                    <a href="#"><img src="/img/inst.svg" alt=""></a>
+                    <a href="#"><img src="/img/vk.svg" alt=""></a>
+                    <a href="#"><img src="/img/facebook.svg" alt=""></a>
+                    <a href="#"><img src="/img/youtube.svg" alt=""></a>
+                </div>
+
+                <!-- Мобильный адаптив -->
+                <nav class="for-mob footer__mob-nav">
+                    <div class="footer__mob-container">
+                        <p class="footer__mob-list arrow-top">Информация</p>
+                        <ul class="footer-list hidden">
+                            <li>О компании</li>
+                            <li>Контакты</li>
+                            <li>Акции</li>
+                            <li>Магазины</li>
+                        </ul>
+                    </div>
+                    <div class="footer__mob-container">
+                        <p class="footer__mob-list arrow-top">Интернет-магазин</p>
+                        <ul class="footer-list hidden">
+                            <li>Доставка и самовывоз</li>
+                            <li>Оплата</li>
+                            <li>Возврат-обмен</li>
+                            <li>Новости</li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="footer__icons for-mob">
+                    <a href="#"><img src="/img/inst.svg" alt=""></a>
+                    <a href="#"><img src="/img/vk.svg" alt=""></a>
+                    <a href="#"><img src="/img/facebook.svg" alt=""></a>
+                    <a href="#"><img src="/img/youtube.svg" alt=""></a>
+                </div>
+                <div class="footer__text-mini for-mob">Договор оферты<br><br>Политика обработки персональных данных
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

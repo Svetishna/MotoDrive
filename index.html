@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dive Moto</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <link rel="stylesheet" href="css/mob.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <script src="js/index.js" defer></script>
+    <script src="js/swiper-bundle.js" defer></script>
+    <script src="js/sliderMain.js" defer></script>
+</head>
+
+<body>
+    <header class="dark-gray">
+        <div class="container">
+            <nav class="header__main dark-gray">
+                <div class="header__main__ref">
+                    <a href="#">Магазины</a>
+                    <a href="#">Акции</a>
+                    <a href="#">Доставка и оплата</a>
+                </div>
+                <img class="header__nav__logo" src="img/logo.svg" alt="">
+                <div class="header__nav__geo">
+                    <img src="img/geo.svg" alt="">
+                    <p>Москва, ул. Науки 25</p>
+                </div>
+                <div class="header__nav__icons">
+                    <div class="burger-mob">
+                        <img src="img/burger.svg" alt="">
+                    </div>
+
+                    <!-- Открытый гамбургер -->
+                    <div class="hamburger for-mob hidden">
+                        <nav class="hamburger__nav">
+                            <a href=""><img src="img/man.svg" alt="">Войти</a>
+                            <a href=""><img src="img/man.svg" alt="">Регистрация</a>
+                            <a href=""><img src="img/heart-mob.svg" alt="">Избранное</a>
+                            <a href=""><img class="mini-cart" src="img/cart-mob.svg" alt="">Корзина</a>
+                            <a href=""><img src="img/shop.svg" alt="">Магазины</a>
+                            <a href=""><img src="img/promo.svg" alt="">Акции</a>
+                            <a href=""><img src="img/delivery.svg" alt="">Доставка и оплата</a>
+                            <a class="without-img" href="">Квадроциклы</a>
+                            <a class="without-img" href="">Катера</a>
+                            <a class="without-img" href="catalog.html">Гидроциклы</a>
+                            <a class="without-img" href="">Лодки</a>
+                            <a class="without-img" href="">Вездеходы</a>
+                            <a class="without-img" href="">Снегоходы</a>
+                            <a class="without-img" href="">Двигатели</a>
+                            <a class="without-img" href="">Запчасти</a>
+                        </nav>
+                        <p>Москва,<br>
+                            ул. Науки 25</p>
+                    </div>
+
+                    <p class="logo-mob">DRIVE MOTO</p>
+                    <img class="icon-margin" src="img/header1.svg" alt="">
+                    <img class="icon-margin" src="img/header2.svg" alt="">
+                    <img src="img/header3.svg" alt="">
+                    <div class="shop-count">
+                        <p>1</p>
+                    </div>
+                </div>
+                <div class="header__main__ref-mob">
+                    <a href="#">Магазины</a>
+                    <a href="#">Акции</a>
+                    <a href="#">Доставка и оплата</a>
+                </div>
+            </nav>
+            <nav class="header__shop">
+                <a href="#">Квадроциклы</a>
+                <a href="#">Катера</a>
+                <a href="catalog.html">Гидроциклы</a>
+                <a href="#">Лодки</a>
+                <a href="#">Вездеходы</a>
+                <a href="#">Снегоходы</a>
+                <a href="#">Двигатели</a>
+                <a href="#">Запчасти</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <aside>
+                <div class="main-slider swiper slider-js">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/banner.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/banner.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/banner.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/banner.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/banner.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/banner.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="aside__promo">
+                    <div class="aside__promo__price">
+                        <p class="blue-rectangle promo-sale">Акция</p>
+                        <p class="price blue-text">190 000</p>
+                        <img src="/img/ruble.svg" alt="">
+                    </div>
+                    <div class="gray-text aside__promo__old-price">
+                        <p>225 000</p>
+                        <img class="cross" src="img/line.svg" alt="">
+                        <img src="img/ruble-gray.svg" alt="">
+                    </div>
+                    <img src="img/motor.png" alt="">
+                    <div class="container-item">
+                        <h4 class="text-name ">Лодочный мотор
+                            Suzuki DF9.9BRS</h4>
+                    </div>
+                    <div class="aside__promo__time">
+                        <div class="container-item">
+                            <p class="text-name">Акция действует до</p>
+                            <p class="blue-text">31.08.2020</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <section class="main__nav">
+                <nav class="main__nav__ref">
+                    <a href="#">Поиск по номеру</a>
+                    <a href="#">Поиск по марке</a>
+                    <a href="#">Поиск по названию товара</a>
+                </nav>
+                <div class="main__nav__search">
+                    <textarea placeholder="Введите марку"></textarea>
+                    <button class="blue-rectangle main__nav__search__button">Искать</button>
+                    <img class="search-loupe" src="/img/loupe.svg" alt="">
+                </div>
+            </section>
+            <section class="main__items grid__items">
+                <div class="item">
+                    <div class="item__about">
+                        <h3 class="dark-gray change-color">Квадроциклы</h3>
+                        <img class="img-atv" src="img/atv.png" alt="">
+                    </div>
+                    <div class="item__more">
+                        <p class="gray-text">Подробнее</p>
+                        <img src="img/arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__about" href="catalog.html">
+                        <h3 class="dark-gray change-color">Гидроциклы</h3>
+                        <img class="img-jet" src="img/jet-ski.png" alt="">
+                    </div>
+                    <div class="item__more">
+                        <p class="gray-text">Подробнее</p>
+                        <img src="img/arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__about">
+                        <h3 class="dark-gray change-color">Катера</h3>
+                        <img class="img-boat" src="img/boat.png" alt="">
+                    </div>
+                    <div class="item__more">
+                        <p class="gray-text">Подробнее</p>
+                        <img src="img/arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__about">
+                        <h3 class="dark-gray change-color">Снегоходы</h3>
+                        <img class="img-snow" src="img/snowmobile.png" alt="">
+                    </div>
+                    <div class="item__more">
+                        <p class="gray-text">Подробнее</p>
+                        <img src="img/arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__about">
+                        <h3 class="dark-gray change-color">Вездеходы</h3>
+                        <img class="img-rover" src="img/rover.png" alt="">
+                    </div>
+                    <div class="item__more">
+                        <p class="gray-text">Подробнее</p>
+                        <img src="img/arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__about">
+                        <h3 class="dark-gray change-color">Двигатели</h3>
+                        <img class="img-engine" src="img/engine.png" alt="">
+                    </div>
+                    <div class="item__more">
+                        <p class="gray-text">Подробнее</p>
+                        <img src="img/arrow.svg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="main__goods">
+                <h2 class="dark-gray">Популярные товары</h2>
+                <nav class="main__goods__nav">
+                    <a href="#">запчасти</a>
+                    <a href="#">моторы</a>
+                    <a href="#">шины</a>
+                    <a href="#">электроника</a>
+                    <a href="#">инструменты</a>
+                    <a href="#">аксессуары</a>
+                </nav>
+
+                <!-- Слайдер для экрана 320px -->
+                <div class="main__goods__items swiper slider-js mob-screen">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper-goods swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="good">
+                                <div class="good__likes">
+                                    <img class="heart" src="img/heart.svg" alt="">
+                                    <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                                </div>
+                                <img class="good-img" src="img/backpack.png" alt="">
+                                <div class="good__about">
+                                    <p class="text-name dark-gray change-color">Водонепроницаемый рюкзак</p>
+                                    <p class="good__price dark-gray change-color">9 800 ₽</p>
+                                </div>
+                                <img class="good-cart" src="img/cart.svg" alt="">
+                                <div class="good__to-see dark-gray hidden">
+                                    <a href="product-card.html">посмотреть товар</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="good">
+                                <p class="blue-rectangle good-sale">SALE</p>
+                                <div class="good__likes">
+                                    <img class="heart" src="img/heart.svg" alt="">
+                                    <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                                </div>
+                                <img class="good-img" src="img/jacket.png" alt="">
+                                <div class="good__about">
+                                    <p class="text-name dark-gray change-color">Спасательный жилет BRP Men's Airflow
+                                        PFD
+                                    </p>
+                                    <p class="good__price dark-gray change-color">6 900 ₽</p>
+                                </div>
+                                <img class="good-cart" src="img/cart.svg" alt="">
+                                <div class="good__to-see dark-gray hidden">
+                                    <a href="product-card.html">посмотреть товар</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="good">
+                                <div class="good__likes">
+                                    <img class="heart" src="img/heart.svg" alt="">
+                                    <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                                </div>
+                                <img class="good-img" src="img/audio.png" alt="">
+                                <div class="good__about">
+                                    <p class="text-name dark-gray change-color">
+                                        BRP Audio-Premium System</p>
+                                    <p class="good__price dark-gray change-color">68 000 ₽</p>
+                                </div>
+                                <img class="good-cart" src="img/cart.svg" alt="">
+                                <div class="good__to-see dark-gray hidden">
+                                    <a href="product-card.html">посмотреть товар</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="good">
+                                <p class="blue-rectangle good-sale">SALE</p>
+                                <div class="good__likes">
+                                    <img class="heart" src="img/heart.svg" alt="">
+                                    <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                                </div>
+                                <img class="good-img" src="img/equip.png" alt="">
+                                <div class="good__about">
+                                    <p class="text-name dark-gray change-color">Спасательное
+                                        снаряжение</p>
+                                    <p class="text-name bold none">нет в наличии</p>
+                                    <a href="#" class="small-refer">Сообщить о поступлении</a>
+                                </div>
+                                <div class="good__to-see dark-gray hidden">
+                                    <a href="product-card.html">посмотреть товар</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Для wide-screen -->
+                <div class="main__goods__items grid__goods wide-screen">
+                    <div class="swiper-button-prev swiper-black prev"></div>
+                    <div class="swiper-button-next swiper-black next"></div>
+                    <div class="good">
+                        <div class="good__likes">
+                            <img class="heart" src="img/heart.svg" alt="">
+                            <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                        </div>
+                        <img class="good-img" src="img/backpack.png" alt="">
+                        <div class="good__about">
+                            <p class="text-name dark-gray change-color">Водонепроницаемый рюкзак</p>
+                            <p class="good__price dark-gray change-color">9 800 ₽</p>
+                        </div>
+                        <img class="good-cart" src="img/cart.svg" alt="">
+                        <div class="good__to-see dark-gray hidden">
+                            <a href="product-card.html">посмотреть товар</a>
+                        </div>
+                    </div>
+                    <div class="good">
+                        <p class="blue-rectangle good-sale">SALE</p>
+                        <div class="good__likes">
+                            <img class="heart" src="img/heart.svg" alt="">
+                            <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                        </div>
+                        <img class="good-img" src="img/jacket.png" alt="">
+                        <div class="good__about">
+                            <p class="text-name dark-gray change-color">Спасательный жилет BRP Men's Airflow PFD</p>
+                            <p class="good__price dark-gray change-color">6 900 ₽</p>
+                        </div>
+                        <img class="good-cart" src="img/cart.svg" alt="">
+                        <div class="good__to-see dark-gray hidden">
+                            <a href="product-card.html">посмотреть товар</a>
+                        </div>
+                    </div>
+                    <div class="good">
+                        <div class="good__likes">
+                            <img class="heart" src="img/heart.svg" alt="">
+                            <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                        </div>
+                        <img class="good-img" src="img/audio.png" alt="">
+                        <div class="good__about">
+                            <p class="text-name dark-gray change-color">
+                                BRP Audio-Premium System</p>
+                            <p class="good__price dark-gray change-color">68 000 ₽</p>
+                        </div>
+                        <img class="good-cart" src="img/cart.svg" alt="">
+                        <div class="good__to-see dark-gray hidden">
+                            <a href="product-card.html">посмотреть товар</a>
+                        </div>
+                    </div>
+                    <div class="good">
+                        <p class="blue-rectangle good-sale">SALE</p>
+                        <div class="good__likes">
+                            <img class="heart" src="img/heart.svg" alt="">
+                            <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                        </div>
+                        <img class="good-img" src="img/equip.png" alt="">
+                        <div class="good__about">
+                            <p class="text-name dark-gray change-color">Спасательное
+                                снаряжение</p>
+                            <p class="text-name bold none">нет в наличии</p>
+                            <a href="#" class="small-refer">Сообщить о поступлении</a>
+                        </div>
+                        <div class="good__to-see dark-gray hidden">
+                            <a href="product-card.html">посмотреть товар</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main__goods__more">
+                    <p class="dark-gray">Показать еще</p>
+                </div>
+            </section>
+
+            <!-- Для широких экранов -->
+            <aside class="main__ad for-wide">
+                <img src="img/moto.png" alt="">
+                <img src="img/moto2.png" alt="">
+                <h1>CКИДКИ<br>
+                    на все запчасти
+                    до 70%</h1>
+                <button class="main__ad__button dark-gray">ПОСМОТРЕТЬ ВСЕ</button>
+            </aside>
+
+            <!-- Мобильный адаптив -->
+            <aside class="main__ad for-mob">
+                <h1>Cкидки на все запчасти<br>
+                    до 70%</h1>
+                <div class="main__ad-content">
+                    <img class="main__ad-img" src="img/moto.png" alt="">
+                    <button class=" main__ad__button dark-gray">ПОСМОТРЕТЬ ВСЕ</button>
+                    <img class="main__ad-img" src="img/moto2.png" alt="">
+                </div>
+            </aside>
+
+            <section class="main__goods">
+                <h2 class="dark-gray with-this">С этим товаром покупают</h2>
+                <nav class="main__goods__nav">
+                    <a href="#">запчасти</a>
+                    <a href="#">моторы</a>
+                    <a href="#">шины</a>
+                    <a href="#">электроника</a>
+                    <a href="#">инструменты</a>
+                    <a href="#">аксессуары</a>
+                </nav>
+
+                <!-- Слайдер для экрана 320px -->
+                <div class="main__goods__items swiper slider-js mob-screen">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper-goods swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="good">
+                                <p class="blue-rectangle good-sale">SALE</p>
+                                <div class="good__likes">
+                                    <img class="heart" src="img/heart.svg" alt="">
+                                    <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                                </div>
+                                <img class="good-img" src="img/audio-system.png" alt="">
+                                <div class="good__about">
+                                    <p class="text-name dark-gray change-color">BRP Audio-портативная система</p>
+                                    <p class="text-name bold none">нет в наличии</p>
+                                    <a href="#" class="small-refer">Сообщить о поступлении</a>
+                                </div>
+                                <div class="good__to-see dark-gray hidden">
+                                    <a href="product-card.html">посмотреть товар</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="good">
+                                <div class="good__likes">
+                                    <img class="heart" src="img/heart.svg" alt="">
+                                    <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                                </div>
+                                <img class="good-img" src="img/echomap.png" alt="">
+                                <div class="good__about">
+                                    <p class="text-name dark-gray change-color">Garmin Echomap Plus 62cv</p>
+                                    <p class="good__price dark-gray change-color">45 800 ₽</p>
+                                </div>
+                                <img class="good-cart good-cart-to-move" src="img/cart.svg" alt="">
+                                <div class="good__to-see dark-gray hidden">
+                                    <a href="product-card.html">посмотреть товар</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="good">
+                                <p class="blue-rectangle good-sale">SALE</p>
+                                <div class="good__likes">
+                                    <img class="heart" src="img/heart.svg" alt="">
+                                    <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                                </div>
+                                <img class="good-img" src="img/key.png" alt="">
+                                <div class="good__about">
+                                    <p class="text-name dark-gray change-color">
+                                        RF D.E.S.S.TM Key</p>
+                                    <p class="text-name bold none">нет в наличии</p>
+                                    <a href="#" class="small-refer">Сообщить о поступлении</a>
+                                </div>
+                                <div class="good__to-see dark-gray hidden">
+                                    <a href="product-card.html">посмотреть товар</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="good">
+                                <div class="good__likes">
+                                    <img class="heart" src="img/heart.svg" alt="">
+                                    <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                                </div>
+                                <img class="good-img" src="img/suit.png" alt="">
+                                <div class="good__about">
+                                    <p class="text-name dark-gray change-color">Мужской костюм
+                                        3мм</p>
+                                    <p class="good__price dark-gray change-color">7 000 ₽</p>
+                                </div>
+                                <img class="good-cart good-cart-to-move" src="img/cart.svg" alt="">
+                                <div class="good__to-see dark-gray hidden">
+                                    <a href="product-card.html">посмотреть товар</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Для wide-screen -->
+                <div class="main__goods__items grid__goods swiper wide-screen">
+                    <div class="swiper-button-prev swiper-black prev"></div>
+                    <div class="swiper-button-next swiper-black next"></div>
+                    <div class="good">
+                        <p class="blue-rectangle good-sale">SALE</p>
+                        <div class="good__likes">
+                            <img class="heart" src="img/heart.svg" alt="">
+                            <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                        </div>
+                        <img class="good-img" src="img/audio-system.png" alt="">
+                        <div class="good__about">
+                            <p class="text-name dark-gray change-color">BRP Audio-портативная система</p>
+                            <p class="text-name bold none">нет в наличии</p>
+                            <a href="#" class="small-refer">Сообщить о поступлении</a>
+                        </div>
+                        <div class="good__to-see dark-gray hidden">
+                            <a href="product-card.html">посмотреть товар</a>
+                        </div>
+                    </div>
+                    <div class="good">
+                        <div class="good__likes">
+                            <img class="heart" src="img/heart.svg" alt="">
+                            <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                        </div>
+                        <img class="good-img" src="img/echomap.png" alt="">
+                        <div class="good__about">
+                            <p class="text-name dark-gray change-color">Garmin Echomap Plus 62cv</p>
+                            <p class="good__price dark-gray change-color">45 800 ₽</p>
+                        </div>
+                        <img class="good-cart" src="img/cart.svg" alt="">
+                        <div class="good__to-see dark-gray hidden">
+                            <a href="product-card.html">посмотреть товар</a>
+                        </div>
+                    </div>
+                    <div class="good">
+                        <p class="blue-rectangle good-sale">SALE</p>
+                        <div class="good__likes">
+                            <img class="heart" src="img/heart.svg" alt="">
+                            <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                        </div>
+                        <img class="good-img" src="img/key.png" alt="">
+                        <div class="good__about">
+                            <p class="text-name dark-gray change-color">
+                                RF D.E.S.S.TM Key</p>
+                            <p class="text-name bold none">нет в наличии</p>
+                            <a href="#" class="small-refer">Сообщить о поступлении</a>
+                        </div>
+                        <div class="good__to-see dark-gray hidden">
+                            <a href="product-card.html">посмотреть товар</a>
+                        </div>
+                    </div>
+                    <div class="good">
+                        <div class="good__likes">
+                            <img class="heart" src="img/heart.svg" alt="">
+                            <img class="heart hidden" src="img/heart-blue.svg" alt="">
+                        </div>
+                        <img class="good-img" src="img/suit.png" alt="">
+                        <div class="good__about">
+                            <p class="text-name dark-gray change-color">Мужской костюм
+                                3мм</p>
+                            <p class="good__price dark-gray change-color">7 000 ₽</p>
+                        </div>
+                        <img class="good-cart" src="img/cart.svg" alt="">
+                        <div class="good__to-see dark-gray hidden">
+                            <a href="product-card.html">посмотреть товар</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main__goods__more for-mobile">
+                    <p class="dark-gray">Показать еще</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-flex">
+                <div class="gray-background">
+                    <p class="dark-gray footer__text">
+                        Подпишитесь на нашу рассылку<br>
+                        и узнавайте о акция быстрее
+                    </p>
+                    <div class="footer__search">
+                        <textarea placeholder="Введите ваш e-mail:"></textarea>
+                        <button class="blue-rectangle">Отправить</button>
+                    </div>
+                </div>
+
+                <!-- Для широких экранов -->
+                <div class="footer-flex wide-screen">
+                    <nav>
+                        <a class="footer__text" href="#">Информация</a>
+                        <a href="#">О компании</a>
+                        <a href="#">Контакты</a>
+                        <a href="#">Акции</a>
+                        <a href="#">Магазины</a>
+                        <a class="footer__end" href="#">Договор оферты</a>
+                    </nav>
+                    <nav>
+                        <a class="footer__text" href="#">Интернет-магазин</a>
+                        <a href="#">Доставка и самовывоз</a>
+                        <a href="#">Оплата</a>
+                        <a href="#">Возврат-обмен</a>
+                        <a href="#">Новости</a>
+                        <a class="footer__end move-left" href="#">Политика обработки персональных данных</a>
+                    </nav>
+                </div>
+                <div class="footer__icons wide-screen">
+                    <a href="#"><img src="/img/inst.svg" alt=""></a>
+                    <a href="#"><img src="/img/vk.svg" alt=""></a>
+                    <a href="#"><img src="/img/facebook.svg" alt=""></a>
+                    <a href="#"><img src="/img/youtube.svg" alt=""></a>
+                </div>
+
+                <!-- Мобильный адаптив -->
+                <nav class="for-mob footer__mob-nav">
+                    <div class="footer__mob-container">
+                        <p class="footer__mob-list arrow-top">Информация</p>
+                        <ul class="footer-list hidden">
+                            <li>О компании</li>
+                            <li>Контакты</li>
+                            <li>Акции</li>
+                            <li>Магазины</li>
+                        </ul>
+                    </div>
+                    <div class="footer__mob-container">
+                        <p class="footer__mob-list arrow-top">Интернет-магазин</p>
+                        <ul class="footer-list hidden">
+                            <li>Доставка и самовывоз</li>
+                            <li>Оплата</li>
+                            <li>Возврат-обмен</li>
+                            <li>Новости</li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="footer__icons for-mob">
+                    <a href="#"><img src="/img/inst.svg" alt=""></a>
+                    <a href="#"><img src="/img/vk.svg" alt=""></a>
+                    <a href="#"><img src="/img/facebook.svg" alt=""></a>
+                    <a href="#"><img src="/img/youtube.svg" alt=""></a>
+                </div>
+                <div class="footer__text-mini for-mob">Договор оферты<br><br>Политика обработки персональных данных
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
