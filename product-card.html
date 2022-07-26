@@ -164,12 +164,62 @@
             </section>
 
             <section class="shops">
-                <div class="shops__search">
-                    <p class="shops__search__text dark-gray">Магазин</p>
-                    <textarea class="shops__search__textarea"></textarea>
+                <div class="shops__filter">
+                    <div class="shops__search">
+                        <p class="shops__search__text dark-gray">Магазин</p>
+                        <textarea class="shops__search__textarea" placeholder="Введите название магазина"></textarea>
+                    </div>
+                    <div class="shops__time-for-pick">
+                        <input type="checkbox" class="custom-checkbox" id="today" name="today" value="yes">
+                        <label class="dark-gray" for="today">Забрать сегодня</label>
+                        <input type="checkbox" class="custom-checkbox" id="week" name="week" value="yes">
+                        <label class="dark-gray" for="week">Забрать в течение недели</label>
+                    </div>
                 </div>
-                <div class="shops__time-for-pick"></div>
-                <div class="shops__list"></div>
+                <div class="shops__list">
+                    <table class="shops__list__table table">
+                        <thead>
+                            <tr>
+                                <th>Адрес</th>
+                                <th>Режим работы</th>
+                                <th>Доступно</th>
+                                <th>Количество</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Москва, ул. Науки 25</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Москва, ул. Южная 134</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Санкт-Петербург,
+                                    ул. Красная 19</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Киев, ул Шевченко 167</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </section>
 
             <section class="main__goods">

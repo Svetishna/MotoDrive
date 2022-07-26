@@ -591,7 +591,58 @@
         background-color: transparent;
     }
 
+    .buying__navigation a {
+        opacity: 1;
+    }
+
     .buying__navigation a:hover {
         font-weight: 700;
     }
+
+    .shops__filter,
+    .shops__search {
+        display: block;
+    }
+
+    .shops__search {
+        margin: auto 0px 40px auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .shops__search__text {
+        margin-bottom: 12px;
+        font-size: 15px;
+        line-height: 18px;
+        opacity: 1;
+    }
+
+    .shops__search__textarea {
+        background-color: transparent;
+        width: 275px;
+        background-image: none;
+        margin-left: 0px;
+        border: 1px solid #F0F0F4;
+    }
+
+    .shops__time-for-pick label {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        opacity: 1;
+        padding-bottom: 8px;
+        border-bottom: 0.5px solid #C4C4C4;
+        width: 95%;
+        padding-left: 15px;
+    }
+
+    .shops__time-for-pick label:not(:first-child) {
+        padding-top: 14px;
+    }
+
+    .custom-checkbox+label {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
 }
