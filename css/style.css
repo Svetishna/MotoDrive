@@ -1149,18 +1149,18 @@ table {
     margin-bottom: 20px;
 }
 
-tr td:not(:last-child) {
-    padding-right: 100px;
-}
-
 tr td:last-child {
-    padding-right: 30px;
+    padding-left: 130px;
 }
 
 td {
     padding-bottom: 6px;
     padding-top: 15px;
     border-bottom: 1px solid #ebebeb;
+}
+
+.shops__list__table th {
+    padding-bottom: 40px;
 }
 
 .table-refer {
@@ -1190,6 +1190,11 @@ td {
     opacity: 1;
 }
 
+.shops {
+    padding-left: 38px;
+    margin-bottom: 100px;
+}
+
 .shops__filter {
     display: flex;
     align-items: center;
@@ -1209,7 +1214,7 @@ td {
     padding: 9px 0px 0px 17px;
     line-height: 21px;
     color: #2F3035;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 .shops__search {
@@ -1243,5 +1248,41 @@ td {
     font-size: 16px;
     line-height: 24px;
     color: #2F3035;
-    opacity: 0.7;
+    padding-bottom: 20px;
+}
+
+.table__button {
+    padding: 10px 40px;
+}
+
+.table tr td:not(:last-child) {
+    opacity: 0.6;
+}
+
+.table__time {
+    display: flex;
+}
+
+td .table__time:first-child p {
+    margin: 0 20px 10px 0;
+}
+
+td .table__time:last-child p {
+    margin-right: 45px;
+}
+
+.table__body td:first-child {
+    padding-right: 80px;
+}
+
+.table__body td:first-child {
+    padding-right: 80px;
+}
+
+.table__body td:nth-child(2) {
+    padding-right: 97px;
+}
+
+.table__body td:nth-child(3) {
+    padding-right: 115px;
 }

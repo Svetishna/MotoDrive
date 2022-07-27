@@ -604,6 +604,10 @@
         display: block;
     }
 
+    .shops {
+        padding-left: 0px;
+    }
+
     .shops__search {
         margin: auto 0px 40px auto;
         padding-left: 15px;
@@ -643,6 +647,29 @@
     .custom-checkbox+label {
         flex-direction: row-reverse;
         justify-content: space-between;
+    }
+
+    /* .shops__list__mob__item {
+        display: flex;
+    }
+
+    .shops__list__mob__item p:first-child {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        color: #2F3035;
+    }
+
+    .shops__list__mob__item p:last-child {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        color: #2F3035;
+        opacity: 0.7;
+    } */
+
+    .shops__list__table_for_mob td {
+        border: none;
     }
 
 }
