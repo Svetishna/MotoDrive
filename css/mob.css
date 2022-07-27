@@ -428,7 +428,6 @@
     .main__general aside,
     .product-card__text table,
     .product-card__text-nav,
-    .table-refer,
     .good-sale {
         display: none;
     }
@@ -563,22 +562,28 @@
 
     .product-card__text p {
         margin: 40px 0 5px;
+        z-index: -1;
     }
 
     .product-card-img {
         width: 250px;
         height: 187.5px;
         margin: 0 auto;
+        z-index: -1;
     }
 
     .good-product-card {
         margin-bottom: 40px;
     }
 
-    .main__product-card button {
+    .main__product-card button,
+    .shops__button_for-mob {
         max-width: 288px;
         width: 100%;
         padding: 17px 85px;
+    }
+
+    .main__product-card button {
         margin-bottom: 80px;
     }
 
@@ -649,27 +654,59 @@
         justify-content: space-between;
     }
 
-    /* .shops__list__mob__item {
-        display: flex;
+    .shops__list__table_for_mob {
+        padding-left: 10px;
+        padding-right: 19px;
     }
 
-    .shops__list__mob__item p:first-child {
-        font-weight: 700;
-        font-size: 15px;
-        line-height: 18px;
-        color: #2F3035;
-    }
-
-    .shops__list__mob__item p:last-child {
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 22px;
-        color: #2F3035;
-        opacity: 0.7;
-    } */
 
     .shops__list__table_for_mob td {
         border: none;
     }
 
+    .shops__list__table_for_mob tr td:first-child {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .shops__list__table_for_mob tr td:last-child {
+        font-size: 15px;
+        line-height: 22px;
+        opacity: 0.7;
+        padding-left: 50px;
+    }
+
+    .table__time_mob td {
+        font-weight: 400 !important;
+        font-size: 15px !important;
+        line-height: 22px !important;
+        opacity: 0.7;
+        padding: 5px 0px 0px;
+    }
+
+    .shops__button_for-mob {
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+
+    .shops__button {
+        border-bottom: 0.5px solid #C4C4C4;
+    }
+
+    .table-refer {
+        margin: 20px 0px 0px 10px;
+        background-image: url(../img/refer-arrow.svg);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 12px 7.4px;
+    }
+
+    .shops {
+        margin-bottom: 80px;
+    }
+
+    .good__about {
+        z-index: -1;
+    }
 }
